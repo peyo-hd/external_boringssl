@@ -101,10 +101,10 @@ HIDDEN uint32_t OPENSSL_armcap_P =
     ARMV7_NEON |
 #endif
 #if defined(OPENSSL_STATIC_ARMCAP_AES) || defined(__ARM_FEATURE_AES)
-    ARMV8_AES |
+    //ARMV8_AES |
 #endif
 #if defined(OPENSSL_STATIC_ARMCAP_PMULL) || defined(__ARM_FEATURE_AES)
-    ARMV8_PMULL |
+    //ARMV8_PMULL |
 #endif
 #if defined(OPENSSL_STATIC_ARMCAP_SHA1) || defined(__ARM_FEATURE_SHA2)
     ARMV8_SHA1 |
